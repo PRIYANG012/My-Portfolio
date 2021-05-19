@@ -1,0 +1,56 @@
+<!-- navbar -->
+<nav class="navbar navbar-expand-md navbar-light">
+    <button class="navbar-toggler border border-default ml-auto mb-2 " type="button" data-toggle="collapse"
+        data-target="#myNavbar">
+        <i class="fas fa-bars text-white"></i> </button>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- side bar -->
+                <div class="col-xl-1 col-lg-1 col-md-1 sidebar fixed-top">
+
+                   
+                    <ul class="navbar-nav flex-column  align-items-center mt-4">
+                        <div >
+                            <a href="" class="text-center  p-2 m-2">
+    
+                                <p class=" text-center  pt-2 sidebar-title"> <span> <b> P</b> </span><span class="text-danger"> .</span>
+                                </p>
+                            </a>
+                            <hr>
+                        </div>
+
+                        <li class="nav-item"  
+                        *ngFor="let menuItem of menuItems" >
+                            <a (click)="goto(menuItem.functionid,menuItem.id)"  id="icon{{menuItem.id}}" class="nav-link text-center  sidebar-link  p-3 mb-2">
+                                <i class="{{ menuItem.icon }}   fa-lg"></i>
+                            </a>
+                        </li>
+
+
+
+
+
+                        <li class="nav-item">
+                            <br>
+                            <div class="col-lg-12 text-center side-note">
+                                <br>
+                                <p class="text-white">&nbsp;&nbsp;&copy;2021 Copyright. <span class="text-success">
+                                        Priyang
+                                        Patel</span></p><br>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <!-- side bar over -->
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- navbar over -->
