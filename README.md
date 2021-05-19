@@ -1,6 +1,5 @@
 ## My Portfolio
-
-This is my portfolio website.
+My Name is Priyang Patel. This is my portfolio website.
 
 
 ## Tech Stack
@@ -24,8 +23,6 @@ Consist of six Sections
 4. Experience
 5. Projects
 6. Contact Form
-
-## Wire-Frame
 
 
 
