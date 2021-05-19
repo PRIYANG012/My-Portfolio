@@ -135,4 +135,16 @@ export class HomeComponent implements OnInit {
     
     };
 
+
+    goto(i){
+  
+      var active = document.getElementsByClassName("active");
+      while (active.length)
+        active[0].classList.remove("active");
+  
+      document.getElementById(i).scrollIntoView({behavior:"smooth"})
+      
+      document.getElementById("icon"+i).className = "nav-link text-center  sidebar-link  p-3 mb-2 active";
+  
+    }
 }
