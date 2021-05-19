@@ -1,5 +1,11 @@
 {
-  "projects": {
-    "default": "priyang-patel"
+  "targets": {
+    "priyang-patel": {
+      "hosting": {
+        "My-portfolio": [
+          "priyang-patel"
+        ]
+      }
+    }
   }
 }
